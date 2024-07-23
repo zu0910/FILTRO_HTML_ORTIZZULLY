@@ -1,0 +1,216 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+/*
+    scroll-behavior: smooth;
+*/
+.contenedor{
+    background-color: #9a8c98;
+    width: 100vw;
+    height: 57vw;
+}
+.lateral{
+    width: 25vw;
+    height: 57vw;
+    display: grid;
+}
+.campus{
+    font-size: 2vw;
+    margin: 5vw 5vw; 
+    color: #ffffff;
+    
+}
+.things1{
+    text-decoration: none;
+    font-size: 1.2vw;
+    color: white;
+    margin-left: 6vw;
+    margin-top: -4vw;
+    transition: all;
+    cursor: pointer;
+}
+.things1:hover{
+    background-color: white;
+    border: #f2e9e4 0.14vw solid;
+    width: 14vw;
+    height: 2vw;
+    border-bottom-left-radius: 0.5vw;
+    border-top-left-radius: 0.5vw;
+    color: black;
+}
+.things2{
+    text-decoration: none;
+    font-size: 1.2vw;
+    margin-left: 6vw;
+    margin-top: -6.5vw;
+    transition: all;
+    cursor: pointer;
+    color: white;
+}
+.things2:hover{
+    color: black;
+    background-color: white;
+    border: #f2e9e4 0.14vw solid;
+    width: 14vw;
+    height: 2vw;
+    border-bottom-left-radius: 0.5vw;
+    border-top-left-radius: 0.5vw;
+}
+.things3{
+    text-decoration: none;
+    font-size: 1.2vw;
+    margin-left: 6vw;
+    margin-top: -9vw;
+    transition: all;
+    cursor: pointer;
+    color: white;
+}
+.things3:hover{
+    color: black;
+    background-color: white;
+    border: #f2e9e4 0.14vw solid;
+    width: 14vw;
+    height: 2vw;
+    border-bottom-left-radius: 0.5vw;
+    border-top-left-radius: 0.5vw;
+}
+.things4{
+    text-decoration: none;
+    font-size: 1.2vw;
+    margin-left: 6vw;
+    margin-top: -11.5vw;
+    transition: all;
+    cursor: pointer;
+    color: white;
+}
+.things4:hover{
+    color: black;
+    background-color: white;
+    border: #f2e9e4 0.14vw solid;
+    width: 14vw;
+    height: 2vw;
+    border-bottom-left-radius: 0.5vw;
+    border-top-left-radius: 0.5vw;
+}
+.things5{
+    text-decoration: none;
+    font-size: 1.2vw;
+    margin-left: 6vw;
+    margin-top: -6.5vw;
+    transition: all;
+    cursor: pointer;
+    color: white;
+}
+.things5:hover{
+    background-color: white;
+    border: #f2e9e4 0.14vw solid;
+    width: 14vw;
+    height: 2vw;
+    border-bottom-left-radius: 0.5vw;
+    border-top-left-radius: 0.5vw;
+    color: black;
+}
+.año{
+    font-size: 1.2vw;
+    margin-left: 6vw;
+    margin-top: -5.5vw;
+    color: white;
+}
+.centro{
+    background-color: #ffffff;
+    width: 76vw;
+    height: 50vw;
+    margin: -55vw 20vw;
+    border-radius: 2vw;
+    overflow: scroll;
+    border: #f2e9e4 0.2vw solid;
+}
+.titulo{
+    font-size: 1.7vw;
+    padding: 1.5vw 2vw;
+
+}
+.productos{
+    display: flex;
+    width: 100vw;
+}
+.fila32{
+    width: 14vw;
+    height: 15vw;
+    background-color: #f2e9e4;
+    text-align: center;
+    border-radius: 2vw;
+    margin-left: 3vw;
+}
+.fila33{
+    width: 14vw;
+    height: 15vw;
+    background-color: #f2e9e4;
+    text-align: center;
+    border-radius: 2vw;
+    margin-left: 3vw;
+}
+.fila4{
+    width: 14vw;
+    height: 15vw;
+    background-color: #f2e9e4;
+    text-align: center;
+    border-radius: 2vw;
+    margin-left: 3vw;
+}
+.fila41{
+    width: 14vw;
+    height: 15vw;
+    background-color: #f2e9e4;
+    text-align: center;
+    border-radius: 2vw;
+    margin-left: 3vw;
+}
+.fila42{
+    width: 14vw;
+    height: 15vw;
+    background-color: #f2e9e4;
+    text-align: center;
+    border-radius: 2vw;
+    margin-top: 17vw;
+    margin-left: -65vw;
+}
+.imagen{
+    width: 7vw;
+    height: 7vw;
+    margin-top: 1.5vw;
+    border-radius: 1vw;
+}
+.conte{
+    width: 14vw;
+    height: 4vw;
+    background-color: white;
+    border-radius: 1vw;
+    border: #4a4e69 0.14vw solid;
+    margin-top: 2.2vw;
+}
+.nombre{
+    font-size: 0.7vw;
+    margin-top: 0.7vw;
+}
+.precio{
+    font-size: 0.7vw;
+    margin-left: -10vw;
+    margin-top: 0.2vw;
+}
+.agregar{
+    position: relative;
+    margin-left:8vw;
+    width: 4vw;
+    height: 1.2vw;
+    top: -0.5vw;
+    border-radius: 0.3vw;
+    background-color: #f2e9e4;
+    border: #4a4e69 0.14vw solid;
+    text-decoration: none;
+    color: black;
+    font-size: 0.8vw;
+}
+/*@media screen and (max-width*/
