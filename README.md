@@ -12,6 +12,9 @@ Cuenta con 5 funcionamiento importante que son:
 * Pantalones: Encontraras todos los pantalones disponibles
 * Carrito: las prendas que fueron selecionadas se veran alla o si quiere eliminar tambien los puedes hacer
 
+## Estructura
+![alt text](image.png)
+
 ## Creditos
 
 Desarrollado por Zully Fernanda Ortiz Avendaño con CC. 1092528097 donde presente mis conocimiento y capacidades en HTML y CSS
