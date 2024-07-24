@@ -33,7 +33,7 @@
 }
 .things1:hover{
     background-color: white;
-    border: #f2e9e4 0.14vw solid;
+    border: #4a4e69 0.2vw solid;
     width: 14vw;
     height: 2vw;
     border-bottom-left-radius: 0.5vw;
@@ -52,7 +52,7 @@
 .things2:hover{
     color: black;
     background-color: white;
-    border: #f2e9e4 0.14vw solid;
+    border: #4a4e69 0.2vw solid;
     width: 14vw;
     height: 2vw;
     border-bottom-left-radius: 0.5vw;
@@ -70,7 +70,7 @@
 .things3:hover{
     color: black;
     background-color: white;
-    border: #f2e9e4 0.14vw solid;
+    border: #4a4e69 0.2vw solid;
     width: 14vw;
     height: 2vw;
     border-bottom-left-radius: 0.5vw;
@@ -88,7 +88,7 @@
 .things4:hover{
     color: black;
     background-color: white;
-    border: #f2e9e4 0.14vw solid;
+    border: #4a4e69 0.2vw solid;
     width: 14vw;
     height: 2vw;
     border-bottom-left-radius: 0.5vw;
@@ -105,12 +105,21 @@
 }
 .things5:hover{
     background-color: white;
-    border: #f2e9e4 0.14vw solid;
+    border: #4a4e69 0.2vw solid;
     width: 14vw;
     height: 2vw;
     border-bottom-left-radius: 0.5vw;
     border-top-left-radius: 0.5vw;
     color: black;
+}
+.tres{
+    background-color: #ffffff;
+    color: black;
+    width: 2vw;
+    height: 1.5vw;
+    text-align: center;
+    margin-left: 6.5vw;
+    margin-top: -1.5vw;
 }
 .año{
     font-size: 1.2vw;
@@ -124,8 +133,8 @@
     height: 50vw;
     margin: -55vw 20vw;
     border-radius: 2vw;
-    overflow: scroll;
-    border: #f2e9e4 0.2vw solid;
+    overflow: auto;
+    border: #4a4e69 0.2vw solid;
 }
 .titulo{
     font-size: 1.7vw;
@@ -139,7 +148,8 @@
 .fila1{
     width: 14vw;
     height: 15vw;
-    background-color: #f2e9e4;
+    background-color: white;
+    border: #4a4e69 0.2vw solid;
     margin-left: 3vw;
     text-align: center;
     border-radius: 2vw;
@@ -147,7 +157,8 @@
 .fila11{
     width: 14vw;
     height: 15vw;
-    background-color: #f2e9e4;
+    background-color: white;
+    border: #4a4e69 0.2vw solid;
     margin-left: 17vw;
     margin-top: -15vw;
     text-align: center;
@@ -156,7 +167,8 @@
 .fila2{
     width: 14vw;
     height: 15vw;
-    background-color: #f2e9e4;
+    background-color: white;
+    border: #4a4e69 0.2vw solid;
     margin-left: -34vw;
     margin-top: 2vw;
     text-align: center;
@@ -165,7 +177,8 @@
 .fila21{
     width: 14vw;
     height: 15vw;
-    background-color: #f2e9e4;
+    background-color: white;
+    border: #4a4e69 0.2vw solid;
     margin-left: -17vw;
     margin-top: -15vw;
     text-align: center;
@@ -174,7 +187,8 @@
 .fila22{
     width: 14vw;
     height: 15vw;
-    background-color: #f2e9e4;
+    background-color: white;
+    border: #4a4e69 0.2vw solid;
     margin-top: -15vw;
     text-align: center;
     border-radius: 2vw;
@@ -182,7 +196,8 @@
 .fila23{
     width: 14vw;
     height: 15vw;
-    background-color: #f2e9e4;
+    background-color: white;
+    border: #4a4e69 0.2vw solid;
     margin-left: 17vw;
     margin-top: -15vw;
     text-align: center;
@@ -191,7 +206,8 @@
 .fila3{
     width: 14vw;
     height: 15vw;
-    background-color: #f2e9e4;
+    background-color: white;
+    border: #4a4e69 0.2vw solid;
     text-align: center;
     border-radius: 2vw;
     margin-top: 2vw;
@@ -200,7 +216,8 @@
 .fila31{
     width: 14vw;
     height: 15vw;
-    background-color: #f2e9e4;
+    background-color: white;
+    border: #4a4e69 0.2vw solid;
     text-align: center;
     border-radius: 2vw;
     margin-left: -17vw;
@@ -209,7 +226,8 @@
 .fila32{
     width: 14vw;
     height: 15vw;
-    background-color: #f2e9e4;
+    background-color: white;
+    border: #4a4e69 0.2vw solid;
     margin-top: -15vw;
     text-align: center;
     border-radius: 2vw;
@@ -217,7 +235,8 @@
 .fila33{
     width: 14vw;
     height: 15vw;
-    background-color: #f2e9e4;
+    background-color: white;
+    border: #4a4e69 0.2vw solid;
     text-align: center;
     border-radius: 2vw;
     margin-left: 17vw;
@@ -226,7 +245,8 @@
 .fila4{
     width: 14vw;
     height: 15vw;
-    background-color: #f2e9e4;
+    background-color: white;
+    border: #4a4e69 0.2vw solid;
     text-align: center;
     border-radius: 2vw;
     margin-top: 2vw;
@@ -235,7 +255,8 @@
 .fila41{
     width: 14vw;
     height: 15vw;
-    background-color: #f2e9e4;
+    background-color: white;
+    border: #4a4e69 0.2vw solid;
     text-align: center;
     border-radius: 2vw;
     margin-left: -17vw;
@@ -244,7 +265,8 @@
 .fila42{
     width: 14vw;
     height: 15vw;
-    background-color: #f2e9e4;
+    background-color: white;
+    border: #4a4e69 0.2vw solid;
     margin-top: -15vw;
     text-align: center;
     border-radius: 2vw;
@@ -279,7 +301,8 @@
     height: 1.2vw;
     top: -0.5vw;
     border-radius: 0.3vw;
-    background-color: #f2e9e4;
+    background-color: white;
+    border: #4a4e69 0.2vw solid;
     border: #4a4e69 0.14vw solid;
     text-decoration: none;
     color: black;

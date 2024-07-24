@@ -33,7 +33,7 @@
 }
 .things1:hover{
     background-color: white;
-    border: #f2e9e4 0.14vw solid;
+    border: white 0.14vw solid;
     width: 14vw;
     height: 2vw;
     border-bottom-left-radius: 0.5vw;
@@ -52,7 +52,7 @@
 .things2:hover{
     color: black;
     background-color: white;
-    border: #f2e9e4 0.14vw solid;
+    border: white 0.14vw solid;
     width: 14vw;
     height: 2vw;
     border-bottom-left-radius: 0.5vw;
@@ -70,7 +70,7 @@
 .things3:hover{
     color: black;
     background-color: white;
-    border: #f2e9e4 0.14vw solid;
+    border: white 0.14vw solid;
     width: 14vw;
     height: 2vw;
     border-bottom-left-radius: 0.5vw;
@@ -88,7 +88,7 @@
 .things4:hover{
     color: black;
     background-color: white;
-    border: #f2e9e4 0.14vw solid;
+    border: white 0.14vw solid;
     width: 14vw;
     height: 2vw;
     border-bottom-left-radius: 0.5vw;
@@ -105,7 +105,7 @@
 }
 .things5:hover{
     background-color: white;
-    border: #f2e9e4 0.14vw solid;
+    border: white 0.14vw solid;
     width: 14vw;
     height: 2vw;
     border-bottom-left-radius: 0.5vw;
@@ -125,7 +125,7 @@
     margin: -55vw 20vw;
     border-radius: 2vw;
     overflow: scroll;
-    border: #f2e9e4 0.2vw solid;
+    border: white 0.2vw solid;
 }
 .titulo{
     font-size: 1.7vw;
@@ -139,55 +139,130 @@
     width: 72vw;
     height: 8vw;
     margin-left: 2vw;
-    background-color: #f2e9e4;
+    background-color: white;
+    border: #4a4e69 0.14vw solid;
     text-align: center;
     border-radius: 2vw;
+    color: black;
+    display: flex;
 }
 .fila23{
     width: 72vw;
     height: 8vw;
     margin-left: 2vw;
     margin-top: 2vw;
-    background-color: #f2e9e4;
+    background-color: white;
+    border: #4a4e69 0.14vw solid;
     text-align: center;
     border-radius: 2vw;
+    display: flex;
 }
 .fila32{
     width: 72vw;
     height: 8vw;
     margin-top: 2vw;
-    background-color: #f2e9e4;
+    background-color: white;
+    border: #4a4e69 0.14vw solid;
     text-align: center;
     border-radius: 2vw;
     margin-left: 2vw;
+    display: flex;
 }
-.imagen{
-    width: 7vw;
-    height: 7vw;
+.imagen1{
+    width: 6vw;
+    height: 6vw;
+    margin-left: 2vw;
+    margin-top: 1vw;
+}
+.name{
+    margin-right: 12vw;
+    margin-top: 1.5vw;
+}
+.produc{
+    margin-left: 2vw;
     margin-top: 0.5vw;
-    margin-left: -60vw;
-    border-radius: 1vw;
+    width: 20vw;
 }
-p.nombre{
-    font-size: 0.7vw;
-    margin-top: -4vw;
-    margin-left: -25vw;
+.cantidad{
+    margin-left: 2vw;
+    margin-top: 2vw;
+}
+.cuadro{
+    border: #4a4e69 0.14vw solid;
+    margin-top: 1vw;
 }
 .precio{
-    font-size: 0.7vw;
-    margin-left: -10vw;
-    margin-top: 0.2vw;
+    margin-left: 3vw;
+    margin-top: 2vw;
 }
-.agregar{
-    position: relative;
-    margin-left:8vw;
-    width: 4vw;
-    height: 1.2vw;
-    top: -0.5vw;
-    border-radius: 0.3vw;
-    background-color: #f2e9e4;
-    border: #4a4e69 0.14vw solid;
+.num{
+    margin-top: 1vw;
+}
+.sub{
+    margin-left: 4vw;
+    margin-top: 2vw;
+}
+.nume{
+    margin-top: 1vw;
+}
+.basura{
+    width: 3vw;
+    height: 3vw;
+    margin-top: 2.5vw;
+    margin-left: 8vw;
+}
+#borrar{
+    display: none;
+    cursor: pointer;
+}
+#borrar:checked~.fila1{
+    display: none;
+    cursor: pointer;
+}
+#borrar1{
+    display: none;
+    cursor: pointer;
+}
+#borrar1:checked~.fila23{
+    display: none;
+    cursor: pointer;
+}#borrar2{
+    display: none;
+    cursor: pointer;
+}
+#borrar2:checked~.fila32{
+    display: none;
+    cursor: pointer;
+}
+.vaciar{
     text-decoration: none;
     color: black;
-    font-size: 0.8vw;
+    border: #4a4e69 0.14vw solid;
+    padding: 0.2vw;
+    margin-left: 2vw;
+    position: relative;
+    top: 3vw;
+    border-radius: 0.5vw;
+}
+.total2{
+    border: #4a4e69 0.14vw solid;
+    width: 20vw;
+    height: 5vw;
+    margin-left: 53vw;
+    border-radius: 1vw;
+}
+.letra{
+    margin-left: 2vw;
+    margin-top: 1vw;
+}
+.numero{
+    margin-left: 2vw;
+}
+.ahora{
+    border: #4a4e69 0.14vw solid;
+    width: 10vw;
+    margin-left: 9vw;
+    margin-top: -2vw;
+    border-radius: 0.2vw;
+    text-align: center;
 }

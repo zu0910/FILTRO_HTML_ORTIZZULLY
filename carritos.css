@@ -112,15 +112,6 @@
     border-top-left-radius: 0.5vw;
     color: black;
 }
-.tres{
-    background-color: #ffffff;
-    color: black;
-    width: 2vw;
-    height: 1.5vw;
-    text-align: center;
-    margin-left: 6.5vw;
-    margin-top: -1.5vw;
-}
 .año{
     font-size: 1.2vw;
     margin-left: 6vw;
@@ -130,101 +121,18 @@
 .centro{
     background-color: #ffffff;
     width: 76vw;
-    height: 50vw;
+    height: 40vw;
     margin: -55vw 20vw;
     border-radius: 2vw;
-    overflow: scroll;
     border: white 0.2vw solid;
 }
 .titulo{
-    font-size: 1.7vw;
-    padding: 1.5vw 2vw;
-
-}
-.productos{
-    display: flex;
-    width: 100vw;
-}
-.fila32{
-    width: 14vw;
-    height: 15vw;
-    background-color: white;
-    border: #4a4e69 0.14vw solid;
-    text-align: center;
-    border-radius: 2vw;
     margin-left: 3vw;
+    margin-top: 1vw;
+    font-size: 1.5vw;
+    font-weight: bold;
 }
-.fila33{
-    width: 14vw;
-    height: 15vw;
-    background-color: white;
-    border: #4a4e69 0.14vw solid;
-    text-align: center;
-    border-radius: 2vw;
+.texto{
     margin-left: 3vw;
+    margin-top: 1vw;
 }
-.fila4{
-    width: 14vw;
-    height: 15vw;
-    background-color: white;
-    border: #4a4e69 0.14vw solid;
-    text-align: center;
-    border-radius: 2vw;
-    margin-left: 3vw;
-}
-.fila41{
-    width: 14vw;
-    height: 15vw;
-    background-color: white;
-    border: #4a4e69 0.14vw solid;
-    text-align: center;
-    border-radius: 2vw;
-    margin-left: 3vw;
-}
-.fila42{
-    width: 14vw;
-    height: 15vw;
-    background-color: white;
-    border: #4a4e69 0.14vw solid;
-    text-align: center;
-    border-radius: 2vw;
-    margin-top: 17vw;
-    margin-left: -65vw;
-}
-.imagen{
-    width: 7vw;
-    height: 7vw;
-    margin-top: 1.5vw;
-    border-radius: 1vw;
-}
-.conte{
-    width: 14vw;
-    height: 4vw;
-    background-color: white;
-    border-radius: 1vw;
-    border: #4a4e69 0.14vw solid;
-    margin-top: 2.2vw;
-}
-.nombre{
-    font-size: 0.7vw;
-    margin-top: 0.7vw;
-}
-.precio{
-    font-size: 0.7vw;
-    margin-left: -10vw;
-    margin-top: 0.2vw;
-}
-.agregar{
-    position: relative;
-    margin-left:8vw;
-    width: 4vw;
-    height: 1.2vw;
-    top: -0.5vw;
-    border-radius: 0.3vw;
-    background-color: white;
-    border: #4a4e69 0.14vw solid;
-    text-decoration: none;
-    color: black;
-    font-size: 0.8vw;
-}
-/*@media screen and (max-width*/
